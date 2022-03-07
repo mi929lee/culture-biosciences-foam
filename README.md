@@ -16,8 +16,6 @@ I would then create a REST API with the Flask backend framework, since it uses P
 
 ## Frontend Design
 
-### Organization of Visualization
-
 In terms of how I would display the data, I would have a radio button on the top left, which would allow the user to toggle between viewing "foaming", "non-foaming", or unclassified images. This would be the part at which the user "filters" for the different types of images.
 
 I would also display 15 images at a time (below the radio buttons), with a dropdown above or below it, which would indicate whether the image shows foaming or no foaming. Having the dropdown would be good, to ensure that there are no typos when inputting values into the database, which would ensure that the filtering works correctly. Pagination would allow the user to eventually see all of the images.
